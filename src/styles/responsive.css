@@ -1,0 +1,102 @@
+@media only screen and (max-width: 374px) and (max-height: 666px) {
+  .heroAreaContainer {
+    height: 170vh;
+  }
+}
+
+@media screen and (max-width: 898px) {
+  .heroAreaContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90vh !important;
+    margin-left: 5%;
+    overflow-x: hidden;
+    /* margin-top: -30%; */
+  }
+
+  .paraLeft {
+    height: 20%;
+  }
+}
+
+@media screen and (max-width: 909px) {
+  .mainHeading {
+    font-size: calc(1.5rem + 1vw);
+  }
+
+  .smallHeading {
+    font-size: calc(0.4rem + 1vw);
+  }
+
+  .paraLeft h3 {
+    font-size: calc(0.3rem + 1vw);
+  }
+
+  .rightContainer {
+    height: 60%;
+  }
+}
+
+@media screen and (max-width: 909px) {
+  /* .mainHeading {
+    font-size: calc(1.2rem + 1vw);
+  }
+
+  .smallHeading {
+    font-size: calc(0.6rem + 1vw);
+  } */
+
+  .heroAreaContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+    margin-left: 5%;
+    overflow-x: hidden;
+  }
+
+  .leftContainer {
+    width: 100%;
+    /* height: 20vh; */
+    /* padding-bottom: 1vh; */
+    /* justify-content: flex-start; */
+  }
+
+  .paraLeft {
+    padding-bottom: 3vh;
+  }
+
+  .paraLeft h3 {
+    font-size: calc(0.8rem + 1vw);
+  }
+
+  .paraLeft p {
+    font-size: calc(0.6rem + 1vw);
+  }
+
+  .rightContainer {
+    width: 90%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navigatioNtabs a button {
+    font-size: calc(0.3rem + 1vw);
+  }
+
+  .imgPic {
+    width: 80vw;
+  }
+  .imgContainer {
+    /* height: 100%; */
+  }
+  .rightContainer {
+    height: auto;
+  }
+}

@@ -1,0 +1,17 @@
+.mainHeading {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  margin: 2% 0 0 0;
+  font-weight: 800;
+  /* font-size: calc(2rem + 1vw); */
+  font-size: 2.5em;
+}
+
+.smallHeading {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  margin: 0.4% 0 2% 0;
+  font-weight: 600;
+  /* font-size: calc(.6rem + 1vw); */
+  font-size: 1.5em;
+}
